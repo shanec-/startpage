@@ -1,6 +1,9 @@
 <template>
   <div class="parent flex">
-    <div class="child">
+    <links-widget :Links="linkSet1" />
+    <links-widget :Links="linkSet1" />
+    <links-widget :Links="linkSet1" />
+    <!-- <div class="child">
       test1
     </div>
     <div class="child">
@@ -15,20 +18,29 @@
     </div>
     <div class="child">
       test3
-    </div>
+    </div> -->
   </div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from "vue";
+import LinksWidget from "@/components/LinksWidget.vue";
+import WidgetLink from "@/models/WidgetLink";
+import { dataService } from "@/shared/data.service.ts";
 
 export default defineComponent({
   name: "StartPage",
-  props: {
-    msg: String
+  components: {
+    LinksWidget
+  },
+  data() {
+    return {
+      linkSet1: [] as WidgetLink[]
+    };
+  },
+  mounted() {
+    const list1 = dataService.getLinks();
+    this.linkSet1 = list1;
   }
 });
 </script>
-
-<style lang="scss">
-</style>
