@@ -39,7 +39,7 @@ export default defineComponent({
     };
   },
   mounted() {
-    const list1 = dataService.getLinks();
+    const list1 = dataService.getLinks("Main");
     this.linkSet1 = list1;
   }
 });
