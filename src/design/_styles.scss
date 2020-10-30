@@ -20,13 +20,14 @@ $yellow: #d79921;
 * {
   margin: 0;
   // font-family: "Courier New", Courier, monospace;
-  font-family: "ZCOOL QingKe HuangYou", cursive;
-  font-size: 1.1rem;
-  font-weight: bold;
+  // font-family: "ZCOOL QingKe HuangYou", cursive;
+  font-family: "Rajdhani", sans-serif;
+  font-size: 1.2rem;
 }
 
 .parent.flex {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   background-color: $background;
@@ -40,14 +41,23 @@ $yellow: #d79921;
   margin: 10px;
   padding: 5px;
   box-shadow: 5px 5px $cyan;
-}
 
-ul {
-  list-style-type: square;
-  padding-left: 20px;
-}
+  .title {
+    color: $brightWhite;
+    margin-top: -35px;
+    margin-bottom: 10px;
+  }
 
-a {
-  color: $black;
-  text-decoration: none;
+  a {
+    color: $black;
+    text-decoration: none;
+    &:hover {
+      border-bottom: 3px dotted;
+    }
+  }
+
+  ul {
+    list-style-type: square;
+    padding-left: 30px;
+  }
 }
