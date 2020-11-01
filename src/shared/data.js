@@ -17,7 +17,11 @@ export const data = [
       {
         href: "https://www.reddit.com/user/bentus/m/drones/",
         text: "dr"
-      }
+      },
+      {
+        href: "http://nullfactory.net",
+        text: "nfx"
+      },
     ]
   },
   {
@@ -28,12 +32,16 @@ export const data = [
         text: "devhints"
       },
       {
+        href: "https://www.theodinproject.com/",
+        text: "theodinproject"
+      },
+      {
         href: "https://linuxjourney.com/",
         text: "linuxjourney"
       },
       {
-        href: "https://www.theodinproject.com/",
-        text: "theodinproject"
+        href: "https://overthewire.org/wargames/bandit/",
+        text: "overthewire"
       }
     ]
   }
