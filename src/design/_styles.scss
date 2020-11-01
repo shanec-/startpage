@@ -1,0 +1,63 @@
+$background: #282828;
+$black: #282828;
+$blue: #458588;
+$brightBlack: #928374;
+$brightBlue: #83a598;
+$brightCyan: #8ec07c;
+$brightGreen: #b8bb26;
+$brightPurple: #d3869b;
+$brightRed: #fb4934;
+$brightWhite: #ebdbb2;
+$brightYellow: #fabd2f;
+$cyan: #689d6a;
+$foreground: #ebdbb2;
+$green: #98971a;
+$purple: #b16286;
+$red: #cc241d;
+$white: #a89984;
+$yellow: #d79921;
+
+* {
+  margin: 0;
+  // font-family: "Courier New", Courier, monospace;
+  // font-family: "ZCOOL QingKe HuangYou", cursive;
+  font-family: "Rajdhani", sans-serif;
+  font-size: 1.2rem;
+}
+
+.parent.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: $background;
+  height: 100vh;
+}
+
+.child {
+  min-width: 200px;
+  min-height: 200px;
+  background-color: $brightCyan;
+  margin: 10px;
+  padding: 5px;
+  box-shadow: 5px 5px $cyan;
+
+  .title {
+    color: $brightWhite;
+    margin-top: -35px;
+    margin-bottom: 10px;
+  }
+
+  a {
+    color: $black;
+    text-decoration: none;
+    &:hover {
+      border-bottom: 3px dotted;
+    }
+  }
+
+  ul {
+    list-style-type: square;
+    padding-left: 30px;
+  }
+}
