@@ -48,5 +48,18 @@ export const data = [
         text: "overthewire"
       },
     ]
+  },
+  {
+    category: "Work",
+    links: [
+      {
+        href: "https://remoteleaf.com/whoishiring",
+        text: "remoteleaf"
+      },
+      {
+        href: "https://www.reddit.com/r/SideProject/",
+        text: "sideproject"
+      }
+    ]
   }
 ];
