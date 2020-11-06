@@ -2,6 +2,7 @@
   <div class="parent flex">
     <links-widget :Links="linkSet1" WidgetTitle="Core" />
     <links-widget :Links="linkSet2" WidgetTitle="Learn" />
+    <links-widget :Links="linkSet3" WidgetTitle="Work" />
   </div>
 </template>
 
@@ -19,12 +20,14 @@ export default defineComponent({
   data() {
     return {
       linkSet1: [] as WidgetLink[],
-      linkSet2: [] as WidgetLink[]
+      linkSet2: [] as WidgetLink[],
+      linkSet3: [] as WidgetLink[]
     };
   },
   mounted() {
     this.linkSet1 = dataService.getLinks("Core");
     this.linkSet2 = dataService.getLinks("Learn");
+    this.linkSet3 = dataService.getLinks("Work");
   }
 });
 </script>

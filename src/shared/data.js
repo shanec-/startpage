@@ -36,12 +36,29 @@ export const data = [
         text: "theodinproject"
       },
       {
+        href: "https://exercism.io/",
+        text: "exercism"
+      },
+      {
         href: "https://linuxjourney.com/",
         text: "linuxjourney"
       },
       {
         href: "https://overthewire.org/wargames/bandit/",
         text: "overthewire"
+      },
+    ]
+  },
+  {
+    category: "Work",
+    links: [
+      {
+        href: "https://remoteleaf.com/whoishiring",
+        text: "remoteleaf"
+      },
+      {
+        href: "https://www.reddit.com/r/SideProject/",
+        text: "sideproject"
       }
     ]
   }
