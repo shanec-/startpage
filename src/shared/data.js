@@ -28,6 +28,10 @@ export const data = [
     category: "Learn",
     links: [
       {
+        href: "https://medium.com/skilluped/a-comprehensive-overview-of-the-worlds-most-popular-online-course-learning-how-to-learn-e33aef74679d",
+        text: "how to learn"
+      },
+      {
         href: "https://devhints.io",
         text: "devhints"
       },
