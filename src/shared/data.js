@@ -32,6 +32,10 @@ export const data = [
         text: "how to learn"
       },
       {
+        href: "http://lawsofsimplicity.com/",
+        text: "Laws of Simplicity"
+      },
+      {
         href: "https://devhints.io",
         text: "devhints"
       },
@@ -63,6 +67,10 @@ export const data = [
       {
         href: "https://www.reddit.com/r/SideProject/",
         text: "sideproject"
+      },
+      {
+        href: "https://remoteok.io/",
+        text: "remoteok"
       }
     ]
   }
