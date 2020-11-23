@@ -55,6 +55,18 @@ export const data = [
         href: "https://overthewire.org/wargames/bandit/",
         text: "overthewire"
       },
+      {
+        href: "https://www.barbarianmeetscoding.com/blog/2019/02/08/boost-your-coding-fu-with-vscode-and-vim",
+        text: "vim reference"
+      },
+      {
+        href: "https://github.com/jivoi/awesome-osint",
+        text: "awesome osint"
+      },
+      {
+        href: "https://12factor.net/",
+        text: "12 factor app"
+      }
     ]
   },
   {
