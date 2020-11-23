@@ -28,6 +28,14 @@ export const data = [
     category: "Learn",
     links: [
       {
+        href: "https://medium.com/skilluped/a-comprehensive-overview-of-the-worlds-most-popular-online-course-learning-how-to-learn-e33aef74679d",
+        text: "how to learn"
+      },
+      {
+        href: "http://lawsofsimplicity.com/",
+        text: "Laws of Simplicity"
+      },
+      {
         href: "https://devhints.io",
         text: "devhints"
       },
@@ -47,6 +55,18 @@ export const data = [
         href: "https://overthewire.org/wargames/bandit/",
         text: "overthewire"
       },
+      {
+        href: "https://www.barbarianmeetscoding.com/blog/2019/02/08/boost-your-coding-fu-with-vscode-and-vim",
+        text: "vim reference"
+      },
+      {
+        href: "https://github.com/jivoi/awesome-osint",
+        text: "awesome osint"
+      },
+      {
+        href: "https://12factor.net/",
+        text: "12 factor app"
+      }
     ]
   },
   {
@@ -59,6 +79,10 @@ export const data = [
       {
         href: "https://www.reddit.com/r/SideProject/",
         text: "sideproject"
+      },
+      {
+        href: "https://remoteok.io/",
+        text: "remoteok"
       }
     ]
   }
