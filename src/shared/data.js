@@ -66,6 +66,10 @@ export const data = [
       {
         href: "https://12factor.net/",
         text: "12 factor app"
+      },
+      {
+	href: "https://explainshell.com/",
+        text: "ExplainShell"
       }
     ]
   },
@@ -83,6 +87,14 @@ export const data = [
       {
         href: "https://remoteok.io/",
         text: "remoteok"
+      },
+      {
+	href: "https://github.com/ripienaar/free-for-dev",
+        text: "free cloud services"
+      },
+      {
+	href: "https://github.com/ryanmcdermott/clean-code-javascript",
+        text: "Clean Code Javascript"
       }
     ]
   }
