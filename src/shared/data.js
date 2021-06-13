@@ -21,7 +21,7 @@ export const data = [
       {
         href: "http://nullfactory.net",
         text: "nfx"
-      },
+      }
     ]
   },
   {
@@ -68,7 +68,7 @@ export const data = [
         text: "12 factor app"
       },
       {
-	href: "https://explainshell.com/",
+        href: "https://explainshell.com/",
         text: "ExplainShell"
       }
     ]
@@ -89,12 +89,16 @@ export const data = [
         text: "remoteok"
       },
       {
-	href: "https://github.com/ripienaar/free-for-dev",
+        href: "https://github.com/ripienaar/free-for-dev",
         text: "free cloud services"
       },
       {
-	href: "https://github.com/ryanmcdermott/clean-code-javascript",
+        href: "https://github.com/ryanmcdermott/clean-code-javascript",
         text: "Clean Code Javascript"
+      },
+      {
+        href: "https://awesomedevtools.com/",
+        text: "Awesome Devtools"
       }
     ]
   }
